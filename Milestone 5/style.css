@@ -1,0 +1,257 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(158, 218, 223);
+}
+.heading{
+    color:rgb(21, 36, 17);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.inputname{
+    font-size: 30px;
+}
+.main{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    background-image: url(desktop-wallpaper-best-4-professional-blue-backgrounds-on-hip-professionals.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:10px 10px 15px rgb(29, 75, 161);
+
+
+}
+.personal{
+   color: rgb(31, 43, 19);
+   background-color: rgb(215, 221, 182);
+   border-radius: 30px;
+   border: 2px solid black;
+   margin-bottom:25px ;
+   text-align: center;
+   padding: 15px;
+   font-size:30px;
+   font-weight: bold;
+
+}
+#uplode{
+    color: white;
+    font-size: 30px;
+}
+.input{
+    color: white;
+    font-size: 30px;
+}
+#email{
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+#username{
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+#name{
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+#phone{
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+#address{
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+#skills{
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#education{
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#experience{
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.forpic{
+    color: rgb(50, 78, 44);
+}
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color:rgb(175, 150, 97);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+input[type="file"]::file.selector-button{
+    background-color: rgb(250, 236, 38);
+    cursor: pointer;
+    font-size: large;
+    color: rgb(233, 219, 219);
+    border-color: rgb(46, 63, 34);
+    border-radius: 30px;
+}
+form{
+    margin-bottom: 40px;
+}
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color:rgb(129, 195, 226) ;
+    border-width: 3px;
+}
+#resumeOutput{
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+border: 3px solid rgb(175, 150, 97) ;
+color: rgb(71, 18, 18);
+background-image: url(flower.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#shareble-link-container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+    background-image: url(desktop-wallpaper-best-4-professional-blue-backgrounds-on-hip-professionals.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#submit{
+    max-width: 600px;
+    border-radius: 20px;
+    font-size: 30px;
+   margin: auto;
+   background-color: rgb(7, 25, 83);
+   color: aqua;
+    
+}
+#submit:hover{
+    
+    color: rgb(252, 146, 26);
+    box-shadow: 5px 5px 15px rgb(82, 133, 190);
+}
+
+
+#downloadpdf{
+    max-width: 800px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+   margin: auto;
+   background-color: black;
+   color: rgb(150, 236, 236);
+    
+}
+#downloadpdf:hover{
+    
+    color: rgb(197, 114, 20);
+    box-shadow: 5px 5px 15px rgb(212, 152, 152);
+}
+#downloadPDF {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: rgb(216, 142, 142);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#downloadPDF:hover {
+    background-color: #45a049;
+}
+a{
+    color: rgb(42, 59, 134);
+    font-size: 40px;
+}
+a:hover{
+    color: rgb(185, 176, 176);
+}
+
+h1{
+    background-color: rgb(49, 54, 25);
+    color:rgb(247, 212, 212) ;
+    text-align: center;
+    font-size: 50px;
+}
+h2 ,p{
+    margin: 10px 0px;
+}
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: initial;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+img{
+    max-width: 150px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+@media (max-width:600px){
+    body{
+        margin: 10px;
+    }
+    form{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    input,textarea{
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 3em;
+    }
+    img{
+        max-width: 100px;
+    }
+    input[type="submit"]{
+        padding: auto;
+    }
+    #resumeOutput{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: -3px;
+        
+    }
+}
